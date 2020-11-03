@@ -48,7 +48,7 @@ act editables {
     phase main {
         func void main() {
             bool i=true;
-            (editable stat)(code if(i)) {
+            (editable,stat)(code if(i)) {
                 Sys.LineOut("oki")
             }
         }
